@@ -1,0 +1,16 @@
+langchain_groq
+langchain
+langchain_community
+python-dotenv
+pdf2image
+langchain_huggingface
+google_generativeai
+PyPDF2
+litellm
+crewai
+crewai_tools
+youtube-transcript-api==1.2.1
+yt_dlp
+langchain_google_genai
+streamlit
+google.generativeai
