@@ -1,11 +1,9 @@
-from dotenv import load_dotenv
-load_dotenv()
 import streamlit as st
 import os
 import google.generativeai as genai
 from PIL import Image
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyBG_mwOT63wgKfgdKgCGE7UozbDuQ2bq_A")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
